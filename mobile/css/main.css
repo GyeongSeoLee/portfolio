@@ -1,0 +1,106 @@
+/* CSS Document */
+
+/* 비주얼 영역 */
+.visual .swiper-container {
+      width: 100%;
+      height: auto;
+    }
+.visual .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+    }
+
+    /* .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    } */
+    
+
+   .visual{position: relative;}
+   .visual p{position: absolute; top: 37%; left: 6%; width: 90%; text-align: center; font-size: 1.5em; color: #fff; font-weight: 500; }
+   .visual p>span{color: #019ac0;}
+   .visual .swiper-pagination-bullet-active{color:#019ac0;}
+   .visual .swiper-pagination-bullet{width: 15px; height: 15px;}
+   .visual .swiper-pagination{color: #333;}
+   .visual img{width: 100%;}
+
+    /* content .content_top */
+
+   #content{}
+   #content h3{text-align: center; font-size: 1.7em; margin: 20px 0; font-weight: 700;}
+   #content p{text-align: center; font-size: 1.2em; margin: 20px 0;}
+   #content .content_top ul{overflow: hidden; position: relative;
+       padding: 0 2%;}
+   #content .content_top ul::before{content: ''; display: block;
+        width: 100%; height: 200px; background: #019ac0; position: absolute; top: 100px; left:0; z-index: -1;}  
+   #content .content_top li{float: left; width: 46%; margin: 30px 2%; 
+    box-shadow: 1px 1px 15px 1px rgba(0,0,0,.3);box-sizing: border-box;
+   padding: 20px;background: #fff; }
+  
+   #content .content_top li img{width: 100%; margin-bottom: 20px;}
+   #content .content_top li dt{text-align: center; margin-bottom: 15px;
+  font-size: 1.2em; font-weight: bold;}
+   #content .content_top li dd{text-align: justify; line-height: 1.5em;}
+
+/* content .content_mid1 */
+#content .content_mid1 .swiper-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 50%;
+  top: 0;
+  margin-left: -150px;
+}
+#content .content_mid1 .swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+#content .content_mid1 .swiper-slide strong {
+  display: block;position: absolute;bottom: -50px;text-align: center;width: 100%;font-size: 1.2em;}
+
+    #content .content_mid1{margin-bottom: 30px;}
+    #content .content_mid1 h3{margin: 30px 0;}
+    #content .content_mid1 p{padding: 0 30px;}
+    #content .content_mid1 strong{text-align: justify;}
+    #content .content_mid1 strong>span{padding: 4%; color: #083ecc; font-size: 1.2em; font-weight: bold; margin-top: 20px; text-align: center;}
+    #content .content_mid1 img{width: 100%;}
+
+    /* content .content_mid2 */
+
+    #content .content_mid2 { margin-top: 100px; position: relative; height: 300px;
+       background: url(../images/job_postingx2.jpg) center no-repeat;
+       background-size: cover;}
+    #content .content_mid2 h3{font-size: 3em; position: absolute; left: 30px; top: 40px; font-weight: 700; color: #019ac0;}
+    #content .content_mid2 p{font-size: 1.5em; position: absolute; left: 30px; top: 140px; font-weight: 500; color: #fff; text-align: justify; }
+    
+
+
+    /* content .content_bottom faq */
+  
+    #content  .content_bottom h3{margin: 40px 0; }
+    #content  .content_bottom span{color: #019ac0; position: absolute; right: 20px; top: -2px;
+    font-size: 2.5em; padding: 5px; font-weight: 700;}
+    #content .faq{position: relative;}
+    #content .faq ul{margin-top: 1.2em;}
+    #content .faq li{position: relative; border-top: 1px solid #ccc;}
+    #content .faq li:nth-child(3){border-bottom: 1px solid #ccc;}
+
+    #content .faq p{font-size: 1em; font-weight: 400; text-align: justify;}
+
+    #content .faq .trigger::before{content: 'Q'; position: absolute; top: 15px; left: 30px; color:#019ac0;
+    font-size: 1.5em; font-weight: 700; font-family: 'Roboto', sans-serif;}
+
+    #content .faq .q{margin: 10px 50px; padding: 10px; display: block; font-size: 1.2em; font-weight: 500;} 
+
+    #content .faq .a{color: #666; margin: 10px 50px; padding: 10px; line-height: 1.8em; text-align: justify;
+    font-size: 1.1em; display: none;}
+
+    #content .faq .more{display: block; position: absolute; top: 3em; right: 1.2em;}
+
+    #content .faq i{font-size: 1.7em;}
+
+  

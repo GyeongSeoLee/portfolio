@@ -1,0 +1,24 @@
+/* 회사소개 본문css */
+
+#content .titleArea h2{text-align: center; margin: 0 auto; font-weight: 600; font-size: 1.8em; margin: 10px 0;}
+#content .titleArea p{text-align: center; font-weight: 500; font-size: 1.4em; margin: 50px 7%; width: 85%; line-height: 30px; position: relative;
+  color: #019ac0;}
+#content .titleArea p::after{content: ''; width: 100px; height: 2px; color: #019ac0; position: absolute; left: 0; top: 0; z-index: 10;}
+
+
+/* content_top */
+
+.contentArea .content_top div{width: 80%; margin: 0 10%; position: relative;}
+.contentArea .content_top img{width: 100%;  border-radius: 20px; margin-bottom: 50px;}
+
+.contentArea .content_top ul{width: 100%; background: #f8f8f8; position: relative; padding: 10px 0;}
+.contentArea .content_top ul li{font-size: 1.1em; margin: 60px 20px; background: #fff; width: 80%; padding: 5%; text-align: justify; border-radius: 20px; box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .2); }
+.contentArea .content_top ul dt::before{content: ''; width: 20px; height: 20px; color: #019ac0; position: absolute; left: 0; top: 0;}
+
+.contentArea .content_top ul li dt{position: relative; font-size: 1.5em; color: #083ecc; font-weight: 600;}
+.contentArea .content_top ul li dd{text-align:justify; line-height: 1.8em;}
+/* .contentArea .content_top ul li:nth-child(1) dt{left: 30px; top: 35px;}
+.contentArea .content_top ul li:nth-child(2) dt{left: 30px; top: 270px;}
+.contentArea .content_top ul li:nth-child(3) dt{left: 30px; top: 425px;}
+.contentArea .content_top ul li:nth-child(4) dt{left: 30px; top: 580px;}
+.contentArea .content_top ul li:nth-child(5) dt{left: 30px; top: 760px;} */

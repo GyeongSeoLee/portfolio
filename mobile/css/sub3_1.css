@@ -1,0 +1,65 @@
+/* 회사소개 본문css */
+
+#content .titleArea h2{text-align: center; margin: 0 auto; font-weight: 600; font-size: 1.8em; margin: 10px 0;}
+#content .titleArea p{text-align: center; font-weight: 500; font-size: 1.4em; margin: 50px 7%; width: 85%; line-height: 30px; position: relative;
+  color: #019ac0;}
+#content .titleArea p::after{content: ''; width: 100px; height: 2px; color: #019ac0; position: absolute; left: 0; top: 0; z-index: 10;}
+
+
+/* sub_menu */
+
+.sub_menu{width:100%;position: relative;top: -25px;}
+.sub_menu ul{width: 80%; margin: 0 auto;overflow: hidden;border-bottom: 1px solid #ccc;}
+.sub_menu ul li{width: 50%;float: left;text-align: center;background-color: #fff;font-size: 1.1em;}
+.sub_menu ul li a{padding: 10px 0;}
+
+.sub_menu ul li:hover a, .sub_menu ul li .current{background: #019ac0; color: #fff;font-weight: 600;font-size: 1.1em;}
+
+/* content_top */
+
+#content .contentArea .box{
+   
+  font-size: 4.5em; font-weight: 900;
+  text-align: center; 
+  text-shadow: 3px 3px 10px rgba(0,0,0,.3);
+
+  color: transparent; /* 글자색을 투명하게 처리 */
+  -webkit-text-fill-color: transparent;
+  /* 최신문법 webkit넣기!! */
+  background-clip: text; /* 글자에 배경이미지를 넣기 */
+  -webkit-background-clip: text;
+  /* 최신문법 webkit넣기!! */
+  
+  background-image:  url(https://summerlee.cafe24.com/mobile/images/sub2/forest.jpg); 
+  background-size: 100%; 
+  background-position: left top; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+
+
+/* content_mid */
+
+.contentArea .content_mid {margin-top: 100px}
+
+.contentArea .content_mid h3{margin: -45px 23px; margin-top: 30px;  font-size: 1.3em; font-weight: 500; position: relative; color: #019ac0;}
+/* .contentArea .content_mid h3::after {
+    content: '';
+    width: 50%;
+    height: 3px;
+    position: absolute;
+    left: 25%;
+    top: 50px;
+    color: #019ac0;
+    background: #019ac0;} */
+
+.contentArea .content_mid ul{overflow: hidden; padding: 40px 0;}
+
+.contentArea .content_mid ul:nth-of-type(1){background: #f8f8f8;}
+.contentArea .content_mid ul:nth-of-type(1) li img{float: right;}
+.contentArea .content_mid ul:nth-of-type(2) li img{margin-top: 25px;}
+
+.contentArea .content_mid ul li img{width: 46%;float: left; margin: 20px 2%;border-radius: 20px 0;box-shadow: 8px 8px 0 0 #019ac0;}
+.contentArea .content_mid ul li dl{float: right; width: 46%; margin: 1%; text-align: justify; position: relative;}
+.contentArea .content_mid ul li dt{font-size: 1.2em; margin: 10px 0; padding: 10px; }
+.contentArea .content_mid ul li dd{color: #083ecc; font-weight: 500; font-size: 1.1em; margin: 10px;}

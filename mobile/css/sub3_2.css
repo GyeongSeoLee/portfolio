@@ -1,0 +1,39 @@
+/* 회사소개 본문css */
+
+#content .titleArea h2{text-align: center; margin: 0 auto; font-weight: 600; font-size: 1.8em; margin: 10px 0;}
+#content .titleArea p{text-align: center; font-weight: 500; font-size: 1.4em; margin: 50px 7%; width: 85%; line-height: 30px; position: relative;
+  color: #019ac0;}
+#content .titleArea p::after{content: ''; width: 100px; height: 2px; color: #019ac0; position: absolute; left: 0; top: 0; z-index: 10;}
+
+
+/* sub_menu */
+
+.sub_menu{width:100%;position: relative; top: -25px;}
+.sub_menu ul{width: 80%; margin: 0 auto;overflow: hidden;border-bottom: 1px solid #ccc;}
+.sub_menu ul li{width: 50%;float: left;text-align: center;background-color: #fff;font-size: 1.1em;}
+.sub_menu ul li a{padding: 10px 0;}
+
+.sub_menu ul li:hover a, .sub_menu ul li .current{background: #019ac0; color: #fff;font-weight: 600;font-size: 1.1em;}
+
+/* Q&A*/
+
+.contentArea .content_top{margin-top: 100px;}
+.faq{width: 100%; border-bottom:1px solid #ddd;}
+.faq .hgroup{position:relative;margin:0 0 5px 0;}  
+.faq .hgroup .all{position:absolute; top:-60px; right:10px; color:#333; text-decoration:none;color: #fff;background-color: #999;padding: 5px 7px;border-radius: 5px; font-size: 1.1em;}  
+
+.faq .hgroup .all:hover{background-color: #019ac0;}
+.faq ul{margin:0;padding:0; list-style:none; background: #fff;}  
+.faq .q{padding-left:50px; border-top:1px solid #ddd;position: relative; border-top: 1px solid #ccc;line-height: 1.5em;font-size: 1.3em; }
+
+.faq .q a.trigger{display:block; padding:20px 10px; margin-right: 6px; color:#333;text-align:left; text-decoration:none;}  
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus{color:#333} 
+.faq .q span{display: block; position: absolute; right: 0; top:10%; padding: 15px;} 
+.faq .a{position: relative; padding: 25px; background: #f3f3f3; border-top: 1px dotted #eee;line-height: 1.7em; font-size: 1.25em;display: none; text-align: justify;} 
+
+.faq .img{width: 50px; position: absolute; left: -50px; top: 30px; padding: 0 20px;}
+
+.faq .q::after{content: ''; background: url(../images/sub3/letter-q.png); width:30px; height: 30px; position: absolute; left: 3%; top: 25%;}
+.faq li{position: relative;}

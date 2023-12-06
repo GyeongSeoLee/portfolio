@@ -1,0 +1,25 @@
+/* 회사소개 본문css */
+
+#content .titleArea h2{text-align: center; margin: 0 auto; font-weight: 600; font-size: 1.8em; margin: 10px 0;}
+#content .titleArea p{text-align: center; font-weight: 500; font-size: 1.4em; margin: 50px 7%; width: 85%; line-height: 30px; position: relative;
+  color: #019ac0;}
+#content .titleArea p::after{content: ''; width: 100px; height: 2px; color: #019ac0; position: absolute; left: 0; top: 0; z-index: 10;}
+
+/* sub_menu */
+
+.sub_menu{width:100%;position: relative; top: -25px;}
+.sub_menu ul{width: 80%; margin: 0 auto;overflow: hidden;border-bottom: 1px solid #ccc;}
+.sub_menu ul li{width: 50%;float: left;text-align: center;background-color: #fff;font-size: 1.1em;}
+.sub_menu ul li a{padding: 10px 0;}
+
+.sub_menu ul li:hover a, .sub_menu ul li .current{background: #019ac0; color: #fff;font-weight: 600;font-size: 1.1em;}
+
+/* content_top */
+
+
+.contentArea .content_top ul{overflow: hidden;display: flex; flex-wrap: wrap; padding: 10px;}
+.contentArea .content_top li{width: 45%; margin:  20px 2.5%;}
+.contentArea .content_top dl{text-align: center; border-radius: 40px; border: 1px solid #ccc; padding: 20px; box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .3);}
+.contentArea .content_top dt img{width: 40%;}
+.contentArea .content_top dt{font-size: 1.2em; margin-bottom: 15px; font-weight: bold;  color: #083ecc;}
+.contentArea .content_top dd{width: 60%; font-size: 1em;  margin: 0 auto;}

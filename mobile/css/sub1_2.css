@@ -1,0 +1,30 @@
+/* 회사소개 본문css */
+
+#content .titleArea h2{text-align: center; margin: 0 auto; font-weight: 600; font-size: 1.8em; margin: 10px 0;}
+#content .titleArea p{text-align: center; font-weight: 500; font-size: 1.4em; margin: 50px 7%; width: 85%; line-height: 30px; position: relative;
+  color: #019ac0;}
+#content .titleArea p::after{content: ''; width: 100px; height: 2px; color: #019ac0; position: absolute; left: 0; top: 0; z-index: 10;}
+
+/* content_top */
+
+.contentArea .content_top{margin: 0 auto;}
+.contentArea .content_top ul{overflow: hidden; width: 94%; margin: 0 3%; position: relative;}
+.contentArea .content_top ul li{width: 49%; float: right; margin: .25%; border-radius: 20px; }
+.contentArea .content_top ul li:nth-of-type(1){background: url(../images/sub1/restriction.jpg) center no-repeat;}
+.contentArea .content_top ul li:nth-of-type(2){background: url(../images/sub1/eat_drink.jpg) center no-repeat;}
+.contentArea .content_top ul li:nth-of-type(3){background: url(../images/sub1/distribution.jpg) center no-repeat;}
+.contentArea .content_top ul li:nth-of-type(4){background: url(../images/sub1/computer.jpg) center no-repeat;}
+
+
+.contentArea .content_top ul dl{text-align: justify; margin-top: 40px; position: absolute; color: #fff; width: 100%;  overflow: hidden;}
+.contentArea .content_top ul li:nth-child(2)dl , .contentArea .content_top ul li:nth-child(4)dl{background: #ccc; padding: 40px; float: left;}
+.contentArea .content_top ul dt{color: #52c1dd; font-size: 1.7em; font-weight: 500; padding: 10px;}
+.contentArea .content_top ul dt::before{content: ''; width: 50px; height: 2px; color: #019ac0; position: absolute; left: 0; top: 0; }
+.contentArea .content_top ul dd{font-size: 1.1em; font-weight: 400; padding: 10px; width: 42%;}
+
+.contentArea .content_top li span{height: 300px; width: 100%;  display: block; float: left; float: right; border-radius: 20px; background: rgba(0, 0, 0, .5);}
+
+/* .contentArea .content_top li:nth-child(1) span
+.contentArea .content_top li:nth-child(2) span{}
+.contentArea .content_top li:nth-child(3) span{}
+.contentArea .content_top li:nth-child(4) span{ */

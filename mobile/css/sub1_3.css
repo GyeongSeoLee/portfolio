@@ -1,0 +1,30 @@
+/* 회사소개 본문css */
+
+#content .titleArea h2{text-align: center; margin: 0 auto; font-weight: 600; font-size: 1.8em; margin: 10px 0;}
+#content .titleArea p{text-align: center; font-weight: 500; font-size: 1.4em; margin: 50px 7%; width: 85%; line-height: 30px; position: relative;
+  color: #019ac0;}
+#content .titleArea p::after{content: ''; width: 100px; height: 2px; color: #019ac0; position: absolute; left: 0; top: 0; z-index: 10;}
+
+/* content_top */
+
+#content_area{}
+#content h3{color: #fff; text-indent: -1999px; overflow: hidden;}
+.way{width: 100%; overflow: hidden;}
+/* .way img{border-radius: 40px; float: right; margin: 95px 45px;}  */
+
+.way #map{width: 96%; height: 350px; border: 1px solid #ccc; border-radius: 20px; margin: 0 2%;}
+
+.traffic_text{position: relative; float: left; margin: 50px;}
+.traffic_text dl{width: 100%;}
+.traffic_text dt{font-size: 1.5em; text-align: justify; margin: 30px}
+.traffic_text dd{text-align: justify; margin-top: 20px; position: relative; width: 655px;}
+.traffic_text dd::after{content: ""; width: 45%; height: 1px; background: #ccc; position: absolute; left: 0; top: 35px;}
+
+.traffic_text dl:nth-child(3) dd::after{content: ""; width: 45%; height: 1px; background: #ccc; position: absolute; left: 0; top: 70px;}
+
+
+
+.traffic_icon{position: relative;}
+.traffic_icon i:nth-child(1){font-size: 1.5em; position: absolute; left: 10%; top: 87px; color: #083ecc;}
+.traffic_icon i:nth-child(2){font-size: 1.5em; position: absolute; left: 10%; top: 197px; color: #083ecc;}
+.traffic_icon i:nth-child(3){font-size: 1.5em; position: absolute; left: 10%; top: 306px; color: #083ecc;}

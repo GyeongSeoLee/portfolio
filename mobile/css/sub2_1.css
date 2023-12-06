@@ -1,0 +1,18 @@
+/* 회사소개 본문css */
+
+#content .titleArea h2{text-align: center; margin: 0 auto; font-weight: 600; font-size: 1.8em; margin: 10px 0;}
+#content .titleArea p{text-align: center; font-weight: 500; font-size: 1.4em; margin: 50px 7%; width: 85%; line-height: 30px; position: relative;
+  color: #019ac0;}
+#content .titleArea p::after{content: ''; width: 100px; height: 2px; color: #019ac0; position: absolute; left: 0; top: 0; z-index: 10;}
+
+/* content_top */
+
+.contentArea .content_top{margin: 0 auto;}
+.contentArea .content_top ul span{text-align: justify; font-size: 1.1em;}
+.contentArea .content_top ul li:nth-child(1){width: 90%; margin: 0 5%;}
+.contentArea .content_top ul li:nth-child(1) span{text-align: center;}
+.contentArea .content_top ul li img{width: 100%; border-radius: 20px; margin-bottom: 30px;}
+
+.contentArea .content_top ul dl{background: #f8f8f8; padding: 25px; text-align: justify;}
+.contentArea .content_top ul dl dt{margin: 20px 0; font-weight: 500; font-size: 1.4em;}
+.contentArea .content_top ul dl dd{font-size: 1.1em; margin-bottom: 20px;}

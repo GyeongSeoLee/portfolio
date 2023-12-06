@@ -1,0 +1,63 @@
+/* 회사소개 본문css */
+
+#content .titleArea h2{text-align: center; margin: 0 auto; font-weight: 600; font-size: 1.8em; margin: 10px 0;}
+#content .titleArea p{text-align: center; font-weight: 500; font-size: 1.4em; margin: 50px 7%; width: 85%; line-height: 30px; position: relative;
+  color: #019ac0;}
+#content .titleArea p::after{content: ''; width: 100px; height: 2px; color: #019ac0; position: absolute; left: 0; top: 0; z-index: 10;}
+
+/* sub_menu */
+
+.sub_menu{width:100%;position: relative; top: -25px;}
+.sub_menu ul{width: 80%; margin: 0 auto;overflow: hidden;border-bottom: 1px solid #ccc;}
+.sub_menu ul li{width: 50%;float: left;text-align: center;background-color: #fff;font-size: 1.1em;}
+.sub_menu ul li a{padding: 10px 0;}
+
+.sub_menu ul li:hover a, .sub_menu ul li .current{background: #019ac0; color: #fff;font-weight: 600;font-size: 1.1em;}
+
+
+/* content_top */
+
+.contentArea h3{text-align: center; font-size: 1.8em; font-weight: 700;  margin: 30px;}
+
+.contentArea .content_top {background: #f8f8f8; padding: 20px; position: relative;}
+.contentArea .content_top li{text-align: center; }
+.contentArea .content_top li dl{ height: 140px;}
+.contentArea .content_top li dt{font-weight: bold; font-size: 1.1em; margin: 20px 0;}
+.contentArea .content_top li dd{font-size: 1em; width: 80%; margin: 0 10%;}
+.contentArea .content_top img{width: 80%; margin: 0 10%; border-radius: 50%; height: 100%;}
+
+
+/* content_mid */
+
+.contentArea h3{ position: relative;}
+.contentArea .content_mid{text-align: center;}
+.contentArea .content_mid ul{overflow: hidden; padding: 10px; margin-top: 65px;}
+.contentArea .content_mid li{float: left; width: 31.33%; margin: 0 1%; }
+.contentArea .content_mid dl{border: 1px solid #ccc; padding: 10px; border-radius: 20px; box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .3);}
+.contentArea .content_mid dt{font-weight: bold; font-size: 1.1em; margin: 10px 0; }
+.contentArea .content_mid dt span{color: #083ecc; font-size: 2.5em;}
+.contentArea .content_mid dd{font-size: 1em; width: 80%; margin: 0 10%;}
+
+
+.contentArea h3::after {
+  content: '';
+  width: 25%;
+  height: 3px;
+  position: absolute;
+  left: 38%;
+  top: 50px;
+  color: #019ac0;
+  background: #019ac0;
+}
+
+
+.contentArea .content_mid h3::after {
+    content: '';
+    width: 50%;
+    height: 3px;
+    position: absolute;
+    left: 26%;
+    top: 50px;
+    color: #019ac0;
+    background: #019ac0;
+}

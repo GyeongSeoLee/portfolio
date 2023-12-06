@@ -1,0 +1,62 @@
+/* 회사소개 본문css */
+
+#content .titleArea h2{text-align: center; margin: 0 auto; font-weight: 600; font-size: 1.8em; margin: 10px 0;}
+#content .titleArea p{text-align: center; font-weight: 500; font-size: 1.4em; margin: 50px 7%; width: 85%; line-height: 30px; position: relative;
+  color: #019ac0;}
+#content .titleArea p::after{content: ''; width: 100px; height: 2px; color: #019ac0; position: absolute; left: 0; top: 0; z-index: 10;}
+
+/* content_top */
+
+
+.swiper-slide ul{background: rgba(0, 0, 0, .5);}
+.swiper-slide li{position: relative;}
+.swiper-slide dl{position: absolute; left: 0; bottom: 40px; z-index: 10; color: #fff;}
+.swiper-slide dl dt{font-size: 1.2em;  padding: 10px; width: 55%; text-shadow: 1px 1px 5px rgba(0, 0, 0, .5); position: relative;}
+.swiper-slide dl dt::after{content: ''; width: 80%; height: 3px; position: absolute; left: 5%; bottom: 5%; color: #019ac0; background: #083ecc;}
+.swiper-slide dl dd{font-size: 1.5em; font-weight: 700; color: #49aec7; padding: 10px;}
+.swiper-slide img{width: 100%;}
+
+/* content_mid */
+
+
+.contentArea .content_mid ul{overflow: hidden; margin-bottom: 50px;}
+.contentArea .content_mid li{width: 94%; margin: 0 3%;}
+
+.contentArea .content_mid ul:nth-of-type(1){margin-top: 60px;}
+.contentArea .content_mid ul li span{float: right; width: 40%; text-align: left; font-size: 1.1em; line-height: 1.5em;}
+.contentArea .content_mid ul li img{float: left;}
+
+.contentArea .content_mid ul:nth-of-type(2) {background-color: #f8f8f8; padding: 10px 0;}
+.contentArea .content_mid ul:nth-of-type(2) img{float: right;}
+.contentArea .content_mid ul:nth-of-type(2) span{float: left;}
+
+.contentArea .content_mid ul li{text-align: justify;}
+
+
+/* content_bottom */
+
+.contentArea h3{margin: 0 auto; text-align: center; font-weight: 600; font-size: 1.5em; margin: 10px 0; position: relative;}
+.contentArea h3::after{content: ''; width: 15%; height: 3px; position: absolute; left: 43%; top: 40px; color: #019ac0; background: #019ac0;}
+.contentArea .content_bottom{margin: 0 auto;}
+.contentArea .content_bottom ul{overflow: hidden; padding: 20px 0; margin: 50px 0;}
+.contentArea .content_bottom li{float: left; text-align: center; width: 30.333%; margin: 0 1.5%; background: #fff; box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .5); border-radius: 20px;}
+.contentArea .content_bottom li dl{text-align: center; margin: 0 auto; padding: 20px;}
+.contentArea .content_bottom li dt{color: #019ac0; font-weight: 500; font-size: 1.2em;}
+.contentArea .content_bottom li dd{font-size: 1.1em; margin-top: 20px;}
+
+
+
+/* java_box */
+
+.box{width: 100%;}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+/* .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width:180px ;
+} */
