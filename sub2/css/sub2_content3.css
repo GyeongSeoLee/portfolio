@@ -1,0 +1,54 @@
+v/* 회사소개 본문 css */
+
+#content {width: 1200px;}
+#content .content_area{}
+
+
+/*info*/
+
+#content .content_area .info h3{font-size: 2.5em; text-align: center; margin: 100px; }
+#content .content_area .info_in h3::after{content: ""; display: block; background: #019ac0; width: 150px; height: 3px; position: absolute; left: 428px; top:80px}
+#content .content_area .info div:nth-of-type(1){width: 800px; height: 100px; text-align: center; margin-left: 200px;
+transition: all .4s ease;  padding: 20px; }
+#content .content_area .info div:nth-of-type(1) em{font-size: 1.5em; font-style: normal;line-height: 2em;}
+
+
+#content .content_area .info .info_in {position: relative; margin-bottom: 700px; line-height: 2em;}
+#content .content_area .info .info_in h3{font-size: 2.5em; text-align: center; margin-top: 100px;}
+#content .content_area .info .info_in li{position: absolute; transform: rotate(45deg); margin: 150px 30px; background:  #019ac0; width: 200px; height: 200px; color: #fff; transition: all .4s ease;}
+#content .content_area .info .info_in li:nth-child(1){left: 180px; top: 100px;}
+#content .content_area .info .info_in li:nth-child(1):hover{box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, .4);  transform: scale(1.1); transform: rotate(45deg);}
+#content .content_area .info .info_in li:nth-child(2){left: 480px; top: 100px;}
+#content .content_area .info .info_in li:nth-child(2):hover{box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, .4);  transform: scale(1.1); transform: rotate(45deg);}
+#content .content_area .info .info_in li:nth-child(3){right: 160px; top: 100px;}
+#content .content_area .info .info_in li:nth-child(3):hover{box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, .4);  transform: scale(1.1); transform: rotate(45deg);}
+#content .content_area .info .info_in li:nth-child(4){left: 330px; top: 260px;}
+#content .content_area .info .info_in li:nth-child(4):hover{box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, .4);  transform: scale(1.1); transform: rotate(45deg);}
+#content .content_area .info .info_in li:nth-child(5){left: 630px; top: 260px;}
+#content .content_area .info .info_in li:nth-child(5):hover{box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, .4); transform: scale(1.1); transform: rotate(45deg);}
+
+#content .content_area .info_in li span{position: absolute; transform: rotate(-45deg); font-size: 1.25em; text-align: center; width: 200px;}
+#content .content_area .info_in li:nth-child(1) span{left: 5px; top: 80px;}
+#content .content_area .info_in li:nth-child(1) span::before{content:""; background: #fff; width: 100px; height: 3px; position: absolute; right: 50px; bottom: 80px;}
+#content .content_area .info_in li:nth-child(2) span{left: 0; top: 95px;}
+#content .content_area .info_in li:nth-child(2) span::before{content:""; background: #fff; width: 100px; height: 3px; position: absolute; right: 40px; bottom: 60px;}
+#content .content_area .info_in li:nth-child(3) span{left: 0; top: 95px;}
+#content .content_area .info_in li:nth-child(3) span::before{content:""; background: #fff; width: 100px; height: 3px; position: absolute; right: 40px; bottom: 60px;}
+
+
+#content .content_area .info_in li:nth-child(4) span{left: 0; top: 90px;}
+#content .content_area .info_in li:nth-child(4) span::before{content:""; background: #fff; width: 100px; height: 3px; position: absolute; right: 45px; bottom: 55px;}
+#content .content_area .info_in li:nth-child(5) span{left: 0; top: 90px;}
+#content .content_area .info_in li:nth-child(5) span::before{content:""; background: #fff; width: 100px; height: 3px; position: absolute; right: 45px; bottom: 55px;}
+
+#content .content_area .info_bottom ul{width: 1000px; background: #f8f8f8; position: relative; margin: 50px 0; padding: 50px;}
+#content .content_area .info_bottom ul li{font-size: 1.25em; margin: 40px 120px; background: #fff; width: 800px;  padding: 20px; transition: all .4s ease; text-align: justify;}
+#content .content_area .info_bottom ul li:hover{box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, .3);}
+#content .content_area .info_bottom ul li span{position: absolute; font-size: 1.7em; color: #083ecc; font-weight: 600;}
+#content .content_area .info_bottom ul li:nth-child(1) span{left: 70px; top: 130px;}
+#content .content_area .info_bottom ul li:nth-child(2) span{left: 70px; top: 270px;}
+#content .content_area .info_bottom ul li:nth-child(3) span{left: 70px; top: 375px;}
+#content .content_area .info_bottom ul li:nth-child(4) span{left: 70px; top: 500px;}
+#content .content_area .info_bottom ul li:nth-child(5) span{left: 70px; top: 635px;}
+#content .content_area .info_bottom em{font-size: 2.5em; font-style: normal; font-weight: 600; margin-left: 43%; position: relative;}
+#content .content_area .info_bottom em::after{content: ""; display: block; background: #019ac0; width: 150px; height: 3px; position: absolute; left: -35px; top:80px}

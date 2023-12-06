@@ -1,0 +1,53 @@
+/* 회사소개 본문 css */
+
+#content {width: 1200px;}
+#content .content_area{}
+
+
+/*info*/
+
+#content .content_area .info {position: relative;}
+#content .content_area .info h3{font-size: 2.5em; text-align: center; width: 700px; margin: 100px 20%; position: relative;}
+#content .content_area .info h3::after{content: ""; width: 250px; height: 3px; background: #019ac0; position: absolute; left: 33%; top: 100px;}
+#content .content_area .info p{font-weight: 600; font-size: 1.5em; margin: 50px 0;}
+#content .content_area .info .education {overflow: hidden; padding: 50px 0; position: relative;}
+#content .content_area .info .education li{position: relative; width: 300px; height: 300px; box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, .3); border-radius: 50%; float: left; margin-left: 60px; text-align: justify; padding: 10px 10px; transition: all .4s ease-in-out;}
+#content .content_area .info .education li:hover{transform: scale(1.1);  box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, .5); color: #083ecc;}
+#content .content_area .info .education li em{font-style: normal; display: block; text-align: center; margin: 80px 45px; width: 200px; font-size: 1.25em;}
+#content .content_area .info .education li em span{display: block; margin-top: 30px;}
+#content .content_area .info .education li:nth-child(1) em span{margin: 60px 0;}
+
+
+#content .content_area .info .education li:nth-child(1) em::after{content: ""; width: 200px; height: 2px; position: absolute; left: 55px; bottom: 125px; background: #019ac0;}
+#content .content_area .info .education li:nth-child(2) em::after{content: ""; width: 200px; height: 2px; position: absolute; left: 55px; bottom: 125px; background: #019ac0;}
+#content .content_area .info .education li:nth-child(3) em::after{content: ""; width: 200px; height: 2px; position: absolute; left: 55px; bottom: 125px; background: #019ac0;}
+
+
+
+#content .content_area .info .introduce{}
+#content .content_area .info .introduce li{overflow: hidden; position: relative; line-height: 2.5em;}
+#content .content_area .info .introduce li img{transition: all .4s ease;}
+#content .content_area .info .introduce li:hover img{border-radius: 60px;}
+#content .content_area .info .introduce li span{width: 450px; height: 200px; text-align: justify; font-size: 1.25em; float: left; font-weight: 400;}
+
+#content .content_area .info .introduce li:nth-child(1) span{margin: 210px 50px;}
+#content .content_area .info .introduce li:nth-child(2) span{float: right; margin: 150px 50px;}
+#content .content_area .info .introduce li:nth-child(3) span{margin: 180px 50px;}
+
+#content .content_area .info .introduce li img{float: left;}
+#content .content_area .info .introduce li:nth-child(1) img{margin: 100px 50px; margin-top: 200px;}
+#content .content_area .info .introduce li:nth-child(1)::after{content: ""; display: block; background: #f8f8f8; width: 1200px; height: 2px; position: absolute; left: 0; bottom: 0;}
+#content .content_area .info .introduce li:nth-child(2) img{float: right; margin: 100px 50px;}
+#content .content_area .info .introduce li:nth-child(2)::after{content: ""; display: block; background: #f8f8f8; width: 1200px; height: 2px; position: absolute; left: 0; bottom: 0;}
+#content .content_area .info .introduce li:nth-child(3) img{margin: 100px 50px;}
+
+
+#content .content_area .info_bottom h3{font-size: 2.5em; text-align: center; width: 700px; margin: 40px 20%; position: relative;}
+#content .content_area .info_bottom h3::after{content: ""; display: block; background: #019ac0; width: 150px; height: 3px; position: absolute; left: 275px; top:80px}
+#content .content_area .info_bottom ul{overflow: hidden;}
+#content .content_area .info_bottom ul li{width: 320px; float: left; margin: 150px 20px;transition: all .4s ease; padding: 20px; border-radius: 40px;}
+#content .content_area .info_bottom ul li:hover{transform: scale(1.1);}
+#content .content_area .info_bottom ul li dl{box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, .3); height: 200px;}
+
+#content .content_area .info_bottom ul li dt{text-align: center; margin-bottom: 15px; font-size: 1.5em; background: #083ecc; height: 50px; color: #fff; padding-top: 10px;}
+#content .content_area .info_bottom ul li dd{text-align: justify;  font-size: 1.25em; padding: 10px 20px; line-height: 1.5em; margin-bottom: 10px;}

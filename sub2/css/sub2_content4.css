@@ -1,0 +1,59 @@
+v/* 회사소개 본문 css */
+
+#content {width: 1200px;}
+#content .content_area{}
+
+
+/*info*/
+
+#content .content_area .info{position: relative;}
+#content .content_area .info h3{text-align: center; font-size: 2.5em; margin-top: 100px;}
+#content .content_area .info h3::after{content: ""; display: block; background: #019ac0; width: 250px; height: 3px; position: absolute; left: 477px; top:80px}
+#content .content_area .info p{text-align: justify; width: 800px; font-size: 1.25em; margin: 100px 190px;}
+
+#content .content_area .info ul{overflow: hidden; position: relative; margin-bottom: 100px; padding: 30px 0;}
+#content .content_area .info ul li{width: 250px; height: 120px; border: 3px solid #019ac0; float: left; margin: 0 70px; padding-top: 70px; text-align: center; font-size: 1.2em; background: #fff; transition: all .4s ease; border-radius: 40px;} 
+#content .content_area .info ul li:nth-child(1)::after{content: ""; background: #019ac0; width: 140px; height: 3px; position: absolute; left: 326px; top:120px;}
+#content .content_area .info ul li:nth-child(1)::before{content: ""; background: #083ecc; width: 30px; height: 30px; position: absolute; left: 183px; top:18px; border-radius: 50%;}
+#content .content_area .info ul li:nth-child(1):hover{box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, .3); }
+#content .content_area .info ul li:nth-child(2)::after{content: ""; background: #019ac0; width: 140px; height: 3px; position: absolute; left: 722px; top:120px;}
+#content .content_area .info ul li:nth-child(2)::before{content: ""; background: #083ecc; width: 30px; height: 30px; position: absolute; left: 580px; top:18px; border-radius: 50%;}
+#content .content_area .info ul li:nth-child(2):hover{box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, .3);}
+#content .content_area .info ul li:nth-child(3):hover{box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, .3);}
+#content .content_area .info ul li:nth-child(3)::before{content: ""; background: #083ecc; width: 30px; height: 30px; position: absolute; right: 195px; top:18px; border-radius: 50%;}
+#content .content_area .info_bottom ul li span{ }
+
+
+
+#content .content_area .info_mid{}
+#content .content_area .info_mid h3{font-size: 2.5em; text-align: center; position: relative; margin-bottom: 50px;}
+#content .content_area .info_mid h3::after{content: ""; display: block; background: #019ac0; width: 150px; height: 3px; position: absolute; right: 44%; top:80px}
+#content .content_area .info_mid ul{overflow: hidden; margin-bottom: 70px;}
+#content .content_area .info_mid ul li{ margin: 150px 0;  float: left; position: relative; }
+#content .content_area .info_mid ul li img{width: 600px; transition: all .4s ease;}
+#content .content_area .info_mid ul li img:hover{border-radius: 40px;}
+#content .content_area .info_mid ul li:nth-child(2){margin-top: 150px; float: right;}
+#content .content_area .info_mid ul li:nth-child(2)::after{content: ""; display: block; background: #f8f8f8; width: 1200px; height: 3px; position: absolute; right: 0; top:-150px}
+
+#content .content_area .info_mid ul li span{width: 400px; text-align: justify; float: right; font-size: 1.25em; margin: 70px 100px; font-weight: 500; line-height: 2em;}
+#content .content_area .info_mid ul li span em{color: #019ac0;font-style: normal; font-size: 1.3em;}
+#content .content_area .info_mid ul li:nth-child(2) span{width: 400px; text-align: justify; float: left; font-size: 1.25em;  margin: 100px 100px;}
+
+#content .content_area .info_mid ul li img{}
+
+#content .content_area .info_bottom ul{width: 1000px; background: #f8f8f8; position: relative; margin: 50px; padding: 50px;}
+#content .content_area .info_bottom ul li{font-size: 1.25em; margin: 40px 120px; background: #fff; width: 800px;  padding: 20px; transition: all .4s ease; text-align: justify;}
+#content .content_area .info_bottom ul li:hover{box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, .3);}
+#content .content_area .info_bottom ul li span{position: absolute; font-size: 1.7em; color: #083ecc; font-weight: 600;}
+#content .content_area .info_bottom ul li:nth-child(1) span{left: 70px; top: 100px;}
+#content .content_area .info_bottom ul li:nth-child(2) span{left: 70px; top: 210px;}
+#content .content_area .info_bottom ul li:nth-child(3) span{left: 70px; top: 330px;}
+#content .content_area .info_bottom ul li:nth-child(4) span{left: 70px; top: 465px;}
+#content .content_area .info_bottom ul li:nth-child(5) span{left: 70px; top: 590px;}
+#content .content_area .info_bottom ul li:nth-child(6) span{left: 70px; bottom: 365px;}
+#content .content_area .info_bottom ul li:nth-child(7) span{left: 70px; bottom: 240px;}
+#content .content_area .info_bottom ul li:nth-child(8) span{left: 70px; bottom: 120px;}
+#content .content_area .info_bottom h3{font-size: 2.5em; font-style: normal; font-weight: 600; position: relative; margin-left: 550px;}
+#content .content_area .info_bottom h3::after{content: ""; display: block; background: #019ac0; width: 150px; height: 3px; position: absolute; left: -35px; top:80px}
+
+

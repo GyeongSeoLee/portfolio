@@ -1,0 +1,22 @@
+/* 회사소개 본문 css */
+
+#content {width: 1200px;}
+#content .content_area{}
+
+
+/*info*/
+
+#content .content_area .info {position: relative; }
+#content .content_area .info h3 {font-size: 2.5em; text-align: center; margin: 100px 0;}
+#content .content_area .info h3::after{content: ""; width: 250px; height: 3px; background: #019ac0; position: absolute; left: 39.5%; top: 100px;}
+#content .content_area .info p{text-align: center; font-size: 2em;}
+#content .content_area .info table{position: relative; right: 13%; top: 20px; margin-left: -1000px; font-size: 1.25em; border-bottom: 1px solid #ccc; margin: 100px auto; font-size: 1.25em; width: 1500px;}
+#content .content_area .info table thead{text-align: center; padding: 40px;  border-top: 2px solid #333;  border-bottom: 1px solid #999;}
+#content .content_area .info table th{border-right:  1px solid #999;}
+#content .content_area .info table th:nth-last-child(1){border: none;}
+#content .content_area .info table td:nth-last-child(1){border-right: none;}
+#content .content_area .info table th, td{text-align: center; padding: 20px 40px; border-bottom:  1px solid #999;}
+#content .content_area .info table td{color: #999; border-right:  1px solid #999;}
+#content .content_area .info tbody{border-bottom: 2px solid #333;}
+.check_color{background: #f8f8f8;}
+#content .content_area .info span {position: absolute; right: -130px; top:280px; color: #999; font-size: 1.0em;}

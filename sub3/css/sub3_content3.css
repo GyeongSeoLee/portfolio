@@ -1,0 +1,89 @@
+/* 회사소개 본문 css */
+
+#content {width: 1200px;}
+#content .content_area{}
+
+
+/*info*/
+
+.stock_menu{width: 100%; border: 1px solid #ccc;}
+.stock_menu ul{width: 800px; margin: 0 auto; overflow: hidden;}
+.stock_menu ul li{width: 33%; float: left; text-align: center; font-size: 1.2em;}
+.stock_menu ul li a{padding: 35px 0; transition: all .5s ease-in-out;}
+.stock_menu ul li:hover a, .stock_menu ul li .current{background: #019ac0; color: #fff; border-radius: 20px;}
+
+.tabs {width: 1500px; margin-bottom: 150px;} 
+.tabs .tab_menu{overflow: hidden; width: 600px; margin: 50px 350px;}
+.tabs .tab_menu li{float: left; width: 33.33%;}
+
+.tabs a.tab {display:block; text-align: center;
+          font-size: 16px; background: #019ac0; color: #fff; font-weight: bold; padding: 20px 0; transition: all .5s;} 
+
+.tabs .contlist {display: none; padding:15px;line-height:1.5em;} 
+.tabs .contlist h3{font-size: 1.5em; font-weight: bold; margin-bottom: 30px; margin-left: -145px;}
+.tabs table{position: relative; right: 10%; top: 20px; font-size: 1.25em; border-bottom: 1px solid #ccc; font-size: 1.25em; width: 1500px;}
+
+.tabs table thead{text-align: center; padding: 40px; border-top: 2px solid #333;  border-bottom: 2px solid #333;}
+.tabs table th{border-right:  1px solid #999; margin: 50px; padding: 20px 0; border-bottom: 1px solid #999;}
+.tabs table th:nth-last-child(1){border: none;}
+.tabs table td:nth-last-child(1){border-right: none;}
+.tabs table th, td{text-align: center; padding: 20px 40px; border-bottom:  1px solid #999;}
+.tabs table td{color: #999; border-right:  1px solid #999;}
+.tabs tbody{border-bottom: 2px solid #333; border-top: 2px solid #333;}
+.check_color{background: #f8f8f8;}
+.tabs span{color: #999; font-size: 1.0em; font-size: 1.5em; display: block;}
+.tabs tr {border-right: 1px solid #999;}
+
+
+#content .content_area .info {position: relative; }
+#content .content_area .info h3 {font-size: 2.5em; text-align: center; margin: 100px 0;}
+#content .content_area .info h3::after{content: ""; width: 250px; height: 3px; background: #019ac0; position: absolute; left: 39.5%; top: 100px;}
+#content .content_area .info p{text-align: center; font-size: 2em;}
+#content .content_area .info table{position: relative; right: 13%; top: 20px; margin-left: -1000px; font-size: 1.25em; border-bottom: 1px solid #ccc; margin: 100px auto; font-size: 1.25em; width: 1500px;}
+
+#content .content_area .info table thead{text-align: center; padding: 40px; border-top: 2px solid #333;  border-bottom: 2px solid #333;}
+#content .content_area .info table th{border-right:  1px solid #999; margin: 50px;}
+#content .content_area .info table th:nth-last-child(1){border: none;}
+#content .content_area .info table td:nth-last-child(1){border-right: none;}
+#content .content_area .info table th, td{text-align: center; padding: 20px 40px; border-bottom:  1px solid #999;}
+#content .content_area .info table td{color: #999; border-right:  1px solid #999;}
+#content .content_area .info tbody{border-bottom: 2px solid #333; border-top: 2px solid #333;}
+.check_color{background: #f8f8f8;}
+#content .content_area .info span {position: absolute; right: -130px; top:280px; color: #999; font-size: 1.0em;}
+
+/* info_mid */
+
+#content .content_area .info_mid {position: relative; }
+#content .content_area .info_mid h3 {font-size: 2.5em; text-align: center; margin: 150px 0;}
+#content .content_area .info_mid h3::after{content: ""; width: 250px; height: 3px; background: #019ac0; position: absolute; left: 39.5%; top: 100px;}
+#content .content_area .info_mid p{text-align: center; font-size: 2em;}
+#content .content_area .info_mid table{position: relative; right: 13%; top: 20px; margin-left: -1000px; font-size: 1.25em; border-bottom: 1px solid #ccc; margin: 100px auto; font-size: 1.25em; width: 1500px;}
+
+#content .content_area .info_mid table thead{text-align: center; padding: 40px; border-top: 2px solid #333;  border-bottom: 2px solid #333;}
+#content .content_area .info_mid table th{border-right:  1px solid #999; margin: 50px;}
+#content .content_area .info_mid table th:nth-last-child(1){border: none;}
+#content .content_area .info_mid table td:nth-last-child(1){border-right: none;}
+#content .content_area .info_mid table th, td{text-align: center; padding: 20px 40px; border-bottom:  1px solid #999;}
+#content .content_area .info_mid table td{color: #999; border-right:  1px solid #999;}
+#content .content_area .info_mid tbody{border-bottom: 2px solid #333; border-top: 2px solid #333;}
+.check_color{background: #f8f8f8;}
+#content .content_area .info_mid span {position: absolute; right: -130px; top:280px; color: #999; font-size: 1.0em;}
+
+
+/* info_bottom */
+
+#content .content_area .info_bottom {position: relative; }
+#content .content_area .info_bottom h3 {font-size: 2.5em; text-align: center; margin: 150px 0;}
+#content .content_area .info_bottom h3::after{content: ""; width: 250px; height: 3px; background: #019ac0; position: absolute; left: 39.8%; top: 100px;}
+#content .content_area .info_bottom p{text-align: center; font-size: 2em;}
+#content .content_area .info_bottom table{position: relative; right: 13%; top: 20px; margin-left: -1000px; font-size: 1.25em; border-bottom: 1px solid #ccc; margin: 100px auto; font-size: 1.25em; width: 1500px;}
+
+#content .content_area .info_bottom table thead{text-align: center; padding: 40px; border-top: 2px solid #333;  border-bottom: 2px solid #333;}
+#content .content_area .info_bottom table th{border-right:  1px solid #999; margin: 50px; padding: 20px 0; border-bottom: 1px solid #999;}
+#content .content_area .info_bottom table th:nth-last-child(1){border: none;}
+#content .content_area .info_bottom table td:nth-last-child(1){border-right: none;}
+#content .content_area .info_bottomo table th, td{text-align: center; padding: 20px 40px; border-bottom:  1px solid #999;}
+#content .content_area .info_bottom table td{color: #999; border-right:  1px solid #999;}
+#content .content_area .info_bottom tbody{border-bottom: 2px solid #333; border-top: 2px solid #333;}
+.check_color{background: #f8f8f8;}
+#content .content_area .info_bottom span{color: #999; font-size: 1.0em; font-size: 1.5em; display: block;}

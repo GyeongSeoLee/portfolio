@@ -1,0 +1,27 @@
+/* 그룹소개 공통 css */
+
+.visual{width: 2000px; height: 400px; 
+    position: relative; left: 50%; margin-left: -1000px; overflow: hidden;} 
+    .visual img{animation: visual_ani 4s infinite ease-in-out alternate;}
+    
+    @keyframes visual_ani {from {transform: scale(1);} to {transform: scale(1.05);}}
+    
+    
+    .visual span{display: block; font-size: 2.500em; color: #fff;
+    position: absolute; left: 50%; margin-left: -80px; top: 200px;}
+    
+    .sub_menu{width: 100%; border-bottom: 1px solid #ccc;}
+    .sub_menu ul{width: 800px; margin: 0 auto; overflow: hidden;}
+    .sub_menu ul li{width: 33%; float: left; text-align: center; font-size: 1.250em;}
+    .sub_menu ul li a{padding: 35px 0;}
+    .sub_menu ul li:hover a, .sub_menu ul li .current{border-bottom: 2px solid #019ac0; font-weight: 700; color: #019ac0;}
+    
+    #content{width: 1200px; margin: 0 auto;}
+    #content .title_area{width: 1200px; overflow: hidden; position: relative;}
+    #content .title_area .line_map{position: absolute; right: 20px; top: 20px; color: #666; font-size: 16px;}
+    #content .title_area h2{font-size: 3.125em; font-weight: 700; text-align: center; margin: 160px 0 20px;}
+    #content .title_area span{font-size: 1.5em; color: #019ac0; text-align: center; display: block; margin-top: 30px;}
+    #content .title_area p{font-size: 1.7em; text-align: center; margin: 90px 0;}
+    
+    #content .line_map{margin-top: 40px;}
+    #content .line_map p{font-size: 2.188em;}

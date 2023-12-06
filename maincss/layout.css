@@ -1,0 +1,185 @@
+/* index css */
+
+
+
+/* visual */
+.visual{width: 2000px;height:950px; position: relative; left: 50%; margin-left: -1000px; background: #000; position: relative;overflow:hidden;}
+  
+    .gallery{position:relative; left:0; top:0; overflow:hidden; width:2000px; height:950px;}
+    .gallery li{position: relative;height:950px;overflow: hidden;}
+    .gallery img{animation: ani 30s; filter: brightness(.7);}
+    
+    @keyframes ani {
+        from {transform: scale(1);}
+        to {transform: scale(1.2);} }
+    
+    
+    .gallery li span{font-family: 'Roboto', sans-serif; font-weight: 700;color:#fff; display: block; margin-top: 20px; position: absolute; top: 400px; left:400px; font-size: 3em; line-height: 1.8em;
+    opacity: 0;}
+    .gallery li span strong{font-size: 3.5rem; color:#00a0c9 ;}
+    .dock{width:330px; position:absolute; left:405px; top:610px;}
+    .dock .mbutton{margin-right: 15px; cursor: pointer; display: block; float: left; width: 30px; height: 3px; background: #fff; border-radius:8px; opacity: .5;transition: all .5s}
+    .dock .ps{margin-top: -14px; cursor:pointer; display:block;}                
+    .dock .ps i{font-size: 15px; color: #fff; opacity: .8;}   
+                    
+  .btn{display: block; position: absolute; top:630px; cursor:pointer}
+  .btn i{color:#fff; opacity: .7;}
+  .btnLeft{left:50%; margin-left: -590px;}
+  .btnRight{left:50%; margin-left: -550px;}  
+
+/* content */
+
+/* content intro */
+#content{overflow: hidden; margin: 0 auto; width: 100%; position: relative; background: #fff;}
+#content .intro{position: relative; overflow: hidden; width: 1200px; margin: 0 auto;}
+
+#content .intro h3{margin-top: 100px; margin-bottom: 80px; text-align: center; font-size: 3.125em;}
+#content .intro .intro_inner{position: absolute; left: 445px; top: 300px;}
+#content .intro p{font-weight: 400; font-size: 1.5em; text-align: center; margin-bottom: 50px;}
+
+#content .background {background:url(../images/add_logo.png) no-repeat; width: 285px; height: 900px; position: absolute; left: 50%; top: 2276px; margin-left: 480px;}
+
+#content .intro a{width: 150px; padding: 15px 0; text-align: center;
+background: #019ac0; color: #fff; border-radius: 30px; box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, .3); margin-left: 70px; transition: all .5s;}
+#content .intro a:hover{background: #fff; color:#019ac0 ;}
+
+#content .intro ul{overflow: hidden; padding:40px 30px ;margin-bottom: 100px;} 
+#content .intro li{width:350px; padding: 20px; box-shadow: 2px 2px 15px 1px rgba(0,0,0,.3);
+     transition: all .5s;}
+
+#content .intro li:hover {transform: translateY(-10px) scale(1.03);box-shadow: 2px 2px 15px 1px rgba(0,0,0,.6); }    
+#content .intro li:nth-child(1){float: left;}
+#content .intro li:nth-child(2){float: right;}
+#content .intro li img{transition: all .5s;}
+#content .intro li:hover img{filter: grayscale(100%);}
+
+#content .intro strong{font-size: 1.5em; margin: 15px 0; font-weight: 600;transition: all .5s; text-align: center; display: block;}
+#content .intro li:hover strong{color:#019ac0;}
+
+
+
+
+/* comanagement_philosophy */
+#content .management_philosophy{width: 100%; overflow: hidden; background: #019ac0; color: #fff; position: relative;}
+#content .management_philosophy .philosophy_inner{width: 1240px; margin: 0 auto; }
+
+#content .management_philosophy h3{text-align: center; font-weight: 700; font-size: 3.125em; margin-top: 100px;}
+#content .management_philosophy p{text-align: center; font-weight: 500; font-size: 1.5em; margin-top: 40px;}
+
+#content .management_philosophy ul {overflow: hidden; margin: 100px 0; padding: 20px;}
+#content .management_philosophy ul li{width: 300px; float: left; padding: 50px 0 30px;
+         border-radius: 15px; transition: all .5s; }
+         
+#content .management_philosophy ul li:hover{background: #fff; box-shadow: 2px 2px 15px 1px rgba(0,0,0,.4);}
+#content .management_philosophy a{display: block; text-align: center;}
+
+#content .management_philosophy ul span {display:block; 
+    width: 200px; height: 200px; border: 5px solid #fff; border-radius: 50%; margin: 0 auto; } 
+
+    
+#content .management_philosophy ul li:hover span{border: 5px solid #019ac0;}
+#content .management_philosophy ul span i{text-align: center; font-size: 7em;
+  display: block; margin-top: 40px; color: #fff;}   
+#content .management_philosophy ul li:hover span i{color:#019ac0;} 
+#content .management_philosophy ul strong{display: block; color: #fff;font-size: 1.2em;
+ margin: 20px 0; transition: all .5s; padding-left: 115px;}
+ #content .management_philosophy ul li:nth-child(1) strong{padding-left: 95px;}
+ #content .management_philosophy ul li:hover strong{color:#019ac0;}
+ #content .management_philosophy .more{margin-bottom: 100px;}
+ #content .management_philosophy .material-symbols-outlined{display: block; width: 200px; font-size: 60px; color: #fff; margin: 0 auto;}
+
+/* bussiness */
+
+#content .bussiness{width: 1200px;  margin: 0 auto;overflow: hidden; position: relative;}
+#content .bussiness h3{font-size: 3.125em; margin: 100px 0 40px 100px;}
+#content .bussiness>p{font-size: 1.4em;line-height: 2em; margin-left: 100px;}
+#content .bussiness p span{font-size: 2.2em; color: #08cf8d; font-weight: 400;}
+#content .bussiness ul{position: absolute; left:100px; top:420px; z-index: 10;}
+#content .bussiness .hover_img{margin:50px 0 100px 370px;width:690px; height: 690px; overflow: hidden;}
+
+/*bussiness img hover*/
+.hover_img ul{overflow: hidden;width: 80%; position: relative;}
+.hover_img ul li{width: 31.33%; position: absolute;}
+.hover_img ul li:nth-child(1){left: 0; top: 0;}
+.hover_img ul li:nth-child(2){left: 0; top: 0;}
+.hover_img ul li:nth-child(3){left: 0; top: 0;}
+.hover_img ul li:nth-child(4){left: 0; top: 0;}
+
+.hover_img ul li img{width: 100%;}
+
+/*  */
+
+#content .bussiness ul li{width: 400px; height: 50px; background:#019ac0; border-radius: 10px;
+transform: skewX(20deg); padding: 20px 0 20px 40px; margin-bottom: 40px; position: relative;box-shadow: 2px 2px 15px 1px rgba(0,0,0,.4); transition: all .5s; }
+#content .bussiness ul li:hover{width: 600px; background:#083ecc ; height: 150px;}
+#content .bussiness ul li a{color: #fff;transform: skewX(-20deg);}
+#content .bussiness li h4{font-size: 2em; font-weight: 500;margin-bottom: 15px;}
+#content .bussiness li p{width: 500px; line-height: 1.5em; text-align: justify; font-size: 1.1em;opacity:0; transition: all .5s;}
+#content .bussiness li:hover p{opacity: 1;}
+#content .bussiness li span{display: block; position: absolute; right: 40px; top:10px ;
+  font-size: 3em;opacity:0;transition: all .5s;}
+#content .bussiness li:hover span{opacity: 1;}
+
+
+/*news*/
+#content .news{width: 100%; background: #f6f6f6; position: relative;}
+#content .news .news_inner{width: 1200px;margin: 0 auto;  position: relative;} 
+#content .news h3{font-size: 3em; font-weight: 700; margin-top: 100px; padding-top: 100px; padding-left: 310px;}
+#content .news p{font-weight: 500; color: #019ac0; font-size: 2em; padding-left: 310px; margin-top: 50px;}
+#content .news .slide_gallery{width: 3600px; position: relative;left:-600px; top:0; overflow: hidden;}
+#content .news ul{overflow: hidden; padding: 70px 0; margin-bottom: 100px; float: left;}
+#content .news ul li{float: left; width: 270px; padding:50px 10px; text-align: center;
+background: #fff; margin: 10px 5px; box-shadow: 1px 1px 10px 1px rgba(0,0,0,.2); transform: scale(.95);
+transition: all .5s ease-out;}
+#content .news ul li:hover{border-radius: 20px 0px 20px 0px; box-shadow: 1px 1px 10px 1px rgba(0,0,0,.6); transform: scale(1);
+  background: #019ac0 ; }
+#content .news ul li span{display: block; font-size: 1.2em; margin: 15px 10px; 
+  text-align: justify; line-height: 1.5em;}
+#content .news ul li:hover span{color:#fff;}  
+#content .news ul li img{transition: all .5s ease-out;}
+
+#content .news .more{width: 150px; padding: 15px 0; text-align: center; background: #019ac0; color: #fff; border-radius: 30px; box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, .3); transition: all .5s; position: absolute; right:330px; top: 120px;}
+#content .news .more:hover {background: #fff; color:#019ac0 ;}
+
+#content .news .sub_menu_box .button{display: block; position:absolute; left:50%; bottom: 300px; font-size: 5em; }
+#content .news .sub_menu_box span{padding: 10px 20px; background: #fff; opacity: 40%;}
+#content .news .sub_menu_box .m1{margin-left:-900px; margin-bottom: 100px; color: #333;}
+#content .news .sub_menu_box .m2{margin-left:850px; margin-bottom: 100px;  color: #333;}
+
+
+/*  */
+
+
+/*job_posting*/
+
+#content .job_posting {width: 2000px; height: 500px; margin: 0 auto; margin-top: 100px; overflow: hidden; background: url(../images/job_posting.jpg); position: relative;}
+#content .job_posting h3{font-size: 3em; margin-top: 70px; color: #fff;}
+#content .job_posting div{margin-left:500px;}
+#content .job_posting p{font-size: 2em; font-weight: 600; color: #fff; margin-top: 40px;}
+#content .job_posting p span{color: #019ac0;}
+#content .job_posting .job_btn a{position: absolute; left: 0; top: 0; width: 600px; 
+height: 600px; color: #fff; background: #019ac0; display: block; z-index: 10;}
+#content .job_posting .job_btn{position: relative;}
+#content .job_posting .more{width: 150px; padding: 15px 0; text-align: center; background: #019ac0; color: #fff; border-radius: 30px; box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, .3); transition: all .5s; position: absolute; left: 500px; bottom: 150px;}
+#content .job_posting .more:hover {background: #fff; color:#019ac0 ;}
+
+
+/*stock_price*/
+
+#content .stock_price{width: 1200px; height: 500px; margin-top: 100px; margin: 0 auto; overflow: hidden; position: relative;}
+
+#content .stock_price .stock_notic{float: left; margin: 140px 50px;}
+#content .stock_price .stock_notic dt{margin-top: 20px; font-weight: 500; font-size: 2.5em;}
+#content .stock_price .stock_notic dd{margin-top: 22px; font-weight: 400; color: #08cf8d; font-size: 2.5em;}
+#content .stock_price div {width: 500px;}
+#content .stock_price div span{position: absolute; left: 300px; top: 230px; font-size: 1.1em; color: #333; left: 0; top: 500px; margin-top: 500px;}
+
+#content .stock_price .stock_notic::before{content: ""; display: block; position: absolute; left: 580px; top: 140px; height: 200px; border: 1px solid #ccc;}
+
+#content .stock_price .ir_notic{float: right; margin: 130px 200px;}
+#content .stock_price .ir_notic dt{margin-top: 20px; font-weight: 500; font-size: 2.5em;}
+#content .stock_price .ir_notic dd{margin-top: 30px; font-weight: 400; font-size: 1.1em; color: #333;}
+#content .stock_price .ir_notic dd span{position: absolute; right: 80px; top: 260px;}
+
+/* footerArea */
+.not_white{color: #fff;}

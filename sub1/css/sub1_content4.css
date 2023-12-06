@@ -1,0 +1,25 @@
+*{margin: 0; padding: 0;}
+
+    #content_area{}
+    #content h3{color: #fff; text-indent: -1999px; overflow: hidden;}
+    .way{width: 1200px; margin: 0 auto; overflow: hidden;}
+    .way img{border-radius: 40px; float: right; margin: 95px 45px;} 
+
+    .way #map{width: 1119px; height: 500px; border: 1px solid #ccc; border-radius: 20px; margin: 0 auto;}
+
+    .traffic_text{position: relative; float: left; margin: 70px 50px;}
+    .traffic_text dl{width: 400px;}
+    .traffic_text dt{font-size: 1.5em; text-align: justify; margin: 30px 50px}
+    .traffic_text dd{text-align: justify; margin-top: 20px; position: relative; width: 655px;}
+    .traffic_text dd::after{content: ""; width: 400px; height: 1px; background: #ccc; position: absolute; left: 0; top: 35px;}
+
+    .traffic_text dl:nth-child(3) dd::after{content: ""; width: 400px; height: 1px; background: #ccc; position: absolute; left: 0; top: 70px;}
+    .traffic_icon{position: relative;}
+    .traffic_icon i:nth-child(1){font-size: 1.5em; position: absolute; left: 50px; top: 107px; color: #083ecc;}
+    .traffic_icon i:nth-child(2){font-size: 1.5em; position: absolute; left: 50px; top: 227px; color: #083ecc;}
+    .traffic_icon i:nth-child(3){font-size: 1.5em; position: absolute; left: 50px; top: 345px; color: #083ecc;}
+
+    
+    
+    
+  

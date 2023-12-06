@@ -1,0 +1,22 @@
+/* 회사소개 본문 css */
+
+#content {width: 1200px;}
+#content .content_area{}
+
+
+/*info*/
+
+#content .content_area .info {position: relative;}
+#content .content_area .info h3 {font-size: 2.5em; text-align: center; margin: 100px 0;}
+#content .content_area .info h3::after{content: ""; width: 250px; height: 3px; background: #019ac0; position: absolute; left: 39.5%; top: 100px;}
+#content .content_area .infoin p{text-align: center; font-size: 2em;}
+
+#content .content_area .info ul{overflow: hidden; margin: 100px 0; width: 1200px; padding: 100px;}
+#content .content_area .info ul li{margin: 10px 0; overflow: hidden; line-height: 50px; float: right; padding: 20px 10px; position: relative; transition: all .5s ease-in-out;}
+#content .content_area .info ul li::after{content: ""; background: #ccc; height: 2px; position: absolute; left: 0; top: 0;}
+#content .content_area .info ul li:hover{transform: translateY(-30px); box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, .4); border-radius: 50px 0;}
+
+#content .content_area .info ul li p{color: #019ac0; font-size: 1.7em; font-weight: 500; width: 300px; float: left;  margin-top: 40px;}
+#content .content_area .info ul li em{font-style: normal; display: block; font-size: 1.25em;  width: 600px; float: left;}
+#content .content_area .info ul li span{border: 2px solid #f8f8f8; border-radius: 50%; width: 70px; height: 70px; float: left; margin-right: 150px; box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .3); padding: 70px; margin-top: 5px;}
+#content .content_area .info img{position: absolute; left: 50px; top: 75px;}

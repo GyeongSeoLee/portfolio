@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개-기업소개</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content4.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/2e342610a9.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c2a831f4c33f2a864338bdfcf4b72ab6"></script>
+    <script src="js/map.js"></script>
+
+</head>
+
+
+<body>
+
+    <? include "../common/subhead.html" ?>
+
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="">
+       <span>회사소개</span>
+
+    </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub1_1.html">회사소개</a></li>
+                <li><a href="./sub1_2.html">계열사소개</a></li>
+                <li><a href="./sub1_3.html">회사연혁</a></li>
+                <li><a href="./sub1_4.html" class="current">오시는길</a></li>
+            </ul>
+
+        </div>
+
+    <article id="content"> 
+
+        <div class="title_area">
+
+            <div class="line_map">
+
+                home&gt;회사소개&gt;<strong>오시는길</strong>
+
+            </div>
+
+            <h2>오시는 길</h2>
+            <span>열려있는 글로벌 선두 기업, 동아쏘시오홀딩스</span>
+            <p>언제나 여러분 곁에 가까이 있습니다.</p>
+
+        </div>
+        
+        <div class="content_area">
+
+            <section class="info">
+                <h3>지도</h3>
+           
+            </section>
+
+            <section class="way">
+                
+                <h3  data-aos="fade-down">교통안내</h3>
+                
+                    <div id="map">
+
+                    </div>
+                    
+                    <div  data-aos="fade-down" class="traffic_text">
+                        <dl>
+                            <dt>차량 이용시</dt>
+                            <dd>남부순환로 대로변 위치 - 신설동역 ▶ 도곡역 방향</dd>                           
+                        </dl>
+                                      
+                        <dl>
+                            <dt>지하철 이용시</dt>         
+                            <dd>지하철 2호선 신설동역 9번 출구
+                             도보 3분 소요(약200m)</dd>
+                        </dl>
+                       
+                    
+                        <dl>
+                            <dt>버스 이용시</dt>
+                            <dd>11-3, 11-7, 402, 406, 641, 917, 3423,<br> 4319, 4412, 4426, 4433, 8442</dd>                   
+                        </dl>
+                        
+                    </div>
+
+                   <div  data-aos="fade-down"  class="traffic_icon">
+                     <i class="fa-solid fa-car"></i> 
+                     <i class="fa-solid fa-train-subway"></i>
+                     <i class="fa-solid fa-bus"></i>                   
+                   </div>
+                   <img   data-aos="fade-down" src="./images/content1/company.jpg" alt="">
+                
+            </section>
+
+        </div>
+
+    </article>
+        <? include "../common/subfoot.html" ?>
+</body>
+
+
+</html>
